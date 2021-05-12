@@ -35,3 +35,8 @@ Wireshark is the simplest method to make sure you're at least emitting TFTP pack
 TFTP Software
 Since your code won't be running in the wild 🏖, you have to make sure it's running against real software written by other people. Download and install software for the other party of TFTP, e.g. if you're implementing a server, install a TFTP client and vice versa, then use this software to test your own implementation. 
 
+## How To Run ? 
+```python 
+python tftp 192.168.1.12 push file_name  #to upload
+python tftp 192.168.1.12 pull file_name #to download
+```
