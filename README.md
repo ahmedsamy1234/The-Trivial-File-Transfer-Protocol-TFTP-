@@ -13,11 +13,11 @@ Breaking this barrier (in the context of computer networks) is the main objectiv
 
  ## ℹ️ Requirements
 ### Operating System: Linux  or windows 
-### We’ll be transferring files. Not emails.
-* Use the octet mode of transfer. Not netascii or others.
-* The transfer identifiers (TID's) are simply the UDP port number, the TID notation is used across the RFC
-* The server runs on port 69 by default
-* 8-bit format means “byte”
+*  We’ll be transferring files. Not emails.
+*  Use the octet mode of transfer. Not netascii or others.
+*  The transfer identifiers (TID's) are simply the UDP port number, the TID notation is used across the RFC
+*  The server runs on port 69 by default
+*  8-bit format means “byte”
 ## How to test 
 Sure! Here you go. (Make sure wireshark is running on the loopback interface)
 
