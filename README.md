@@ -30,7 +30,7 @@ udp_socket.sendto(r_bytes, ("127.0.0.1", 69))
 Now you should see a reply from the server. This bytearray is the equivalent of sending a request to read a file named: a.txt as wireshark will show you.
 Wireshark
 
-##Wireshark
+## Wireshark
 Wireshark is the simplest method to make sure you're at least emitting TFTP packets, the packet type will appear as TFTP if your packets are correctly formatted. This is the first good sign you're on the right track.
 TFTP Software
 Since your code won't be running in the wild 🏖, you have to make sure it's running against real software written by other people. Download and install software for the other party of TFTP, e.g. if you're implementing a server, install a TFTP client and vice versa, then use this software to test your own implementation. 
